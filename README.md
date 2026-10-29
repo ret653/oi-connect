@@ -1,24 +1,50 @@
-# Oi Connect
+# Oficina Forte — página de vendas
 
-oi
+Landing page responsiva para uma oficina mecânica, construída com React, TypeScript, TanStack Start, Vite e Tailwind CSS.
 
-This project was built with [Lovable](https://lovable.dev).
+## O que está incluído
 
-## Build with Lovable
+- Página inicial com chamada principal e botões de conversão.
+- Seção de serviços: diagnóstico, mecânica geral, freios/suspensão e elétrica automotiva.
+- Diferenciais da oficina e explicação do processo de atendimento.
+- Formulário de agendamento que prepara uma mensagem para o WhatsApp.
+- Layout adaptado para desktop, tablet e celular.
+- Metadados básicos em português para compartilhamento e mecanismos de busca.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e801354a-e814-45a3-8ecd-ca8195e1e595).
+## Personalize antes de divulgar
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+1. **Nome e identidade:** procure por `Oficina Forte` e altere para o nome real da oficina em `src/components/WorkshopSite.tsx` e `src/routes/__root.tsx`.
+2. **WhatsApp:** no início de `src/components/WorkshopSite.tsx`, altere `WHATSAPP_PHONE` para o número comercial com código do país + DDD + número, somente dígitos. Exemplo de formato: `5511999999999`. Não inclua `+`, espaços ou traços. Se deixar vazio, o link abre o WhatsApp para o cliente escolher o contato.
+3. **Horários:** ajuste o horário mostrado na faixa superior em `src/components/WorkshopSite.tsx`.
+4. **Fotos:** as imagens atuais são exemplos hospedados no Unsplash. Troque as URLs pelas fotos autorizadas da oficina, equipe e serviços.
+5. **Endereço e redes sociais:** inclua os dados reais da empresa quando estiverem disponíveis. Não publique informações fictícias.
 
-## Development
+O nome, horários, imagens e textos atuais são conteúdo demonstrativo e devem ser conferidos antes de colocar o site no ar.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Rodar localmente
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+Requer uma versão recente do Node.js.
+
+```bash
+npm install
 npm run dev
+```
+
+Para validar a versão de produção:
+
+```bash
+npm run build
+npm run preview
+```
+
+## Estrutura principal
+
+```
+src/
+├── components/
+│   └── WorkshopSite.tsx
+├── routes/
+│   ├── __root.tsx
+│   └── index.tsx
+└── styles.css
 ```
