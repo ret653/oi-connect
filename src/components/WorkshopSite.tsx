@@ -52,9 +52,15 @@ const reasons = [
 ];
 
 const whatsappMessage = "Olá! Gostaria de agendar uma avaliação para o meu veículo.";
+// Configure com o DDI + DDD + número, somente dígitos. Exemplo: 5511999999999.
+// Deixe vazio para abrir o WhatsApp e permitir que o cliente escolha o contato.
+const WHATSAPP_PHONE = "";
 
 function whatsappUrl(message = whatsappMessage) {
-  return `https://wa.me/?text=${encodeURIComponent(message)}`;
+  const text = encodeURIComponent(message);
+  return WHATSAPP_PHONE
+    ? `https://wa.me/${WHATSAPP_PHONE}?text=${text}`
+    : `https://wa.me/?text=${text}`;
 }
 
 export default function WorkshopSite() {
