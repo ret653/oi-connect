@@ -112,7 +112,7 @@ export default function WorkshopSite() {
       </header>
 
       <section className="hero" id="inicio">
-        <div className="hero-photo" role="img" aria-label="Mecânico trabalhando em um veículo na oficina" />
+        <img className="hero-photo" src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=2000&q=90" alt="Mecânico realizando manutenção em um veículo dentro da oficina" fetchPriority="high" />
         <div className="hero-shade" />
         <div className="container hero-content">
           <div className="eyebrow"><span className="eyebrow-line" /> CONFIANÇA EM CADA QUILÔMETRO</div>
