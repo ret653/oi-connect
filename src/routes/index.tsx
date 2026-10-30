@@ -4,17 +4,15 @@ import WorkshopSite from "../components/WorkshopSite";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Oficina Forte | Cuidado que move você" },
+      { title: "Bonni Car Service | Mecânica Automotiva em Uberaba" },
       {
         name: "description",
-        content:
-          "Manutenção automotiva com transparência, atenção aos detalhes e compromisso com a sua segurança. Agende sua avaliação.",
+        content: "Manutenção preventiva, troca de óleo, diagnóstico eletrônico e reparos automotivos em Uberaba, Minas Gerais. Fale com a Bonni Car Service.",
       },
-      { property: "og:title", content: "Oficina Forte | Cuidado que move você" },
+      { property: "og:title", content: "Bonni Car Service | Uberaba - MG" },
       {
         property: "og:description",
-        content:
-          "Mecânica geral, diagnóstico, freios, suspensão e elétrica automotiva com atendimento transparente.",
+        content: "Serviços de mecânica automotiva para diferentes marcas e modelos. Solicite um orçamento pelo WhatsApp.",
       },
     ],
   }),
