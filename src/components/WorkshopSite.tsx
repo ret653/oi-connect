@@ -42,7 +42,7 @@ export default function WorkshopSite() {
       `Serviço: ${service}`,
       `Mensagem: ${message.trim()}`,
     ].join("\n");
-    window.open(whatsappUrl(text), "_blank", "noopener,noreferrer");
+    window.location.href = whatsappUrl(text);
   }
 
   const closeMenu = () => setMenuOpen(false);
