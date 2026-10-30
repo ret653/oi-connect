@@ -5,7 +5,7 @@ import {
   Droplets, ScanLine, Settings2, CarFront, ClipboardCheck
 } from "lucide-react";
 
-const WHATSAPP_PHONE = "553491515086";
+const WHATSAPP_PHONE = "5534991515086";
 const whatsappUrl = (message: string) =>
   `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
 
@@ -167,7 +167,7 @@ export default function WorkshopSite() {
         <a className="brand footer-brand" href="#inicio"><span className="brand-mark"><Wrench size={23} strokeWidth={2.5} /></span><span className="brand-copy"><strong>BONNI <span>CAR SERVICE</span></strong><small>MECÂNICA AUTOMOTIVA · UBERABA</small></span></a>
         <p>Manutenção e reparos automotivos em Uberaba, MG.</p>
         <a className="footer-top" href="#inicio">Voltar ao topo ↑</a>
-      </div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Bonni Car Service. Todos os direitos reservados.</span><span>Uberaba · Minas Gerais · <a href="https://wa.me/553491515086" target="_blank" rel="noreferrer">WhatsApp</a></span></div></footer>
+      </div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Bonni Car Service. Todos os direitos reservados.</span><span>Uberaba · Minas Gerais · <a href="https://wa.me/5534991515086" target="_blank" rel="noreferrer">WhatsApp</a></span></div></footer>
     </main>
   );
 }
