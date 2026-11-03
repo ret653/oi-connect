@@ -561,3 +561,19 @@ h1 em, h2 em { color: #ef233c; }
   .design-service-card h3 { font-size:13px; }
   .design-hero-foot { gap:8px; letter-spacing:.08em; }
 }
+
+/* Ajuste solicitado: superfícies claras em cinza-claro, preservando o contraste */
+.bonni-redesign .design-services,
+.bonni-redesign .design-process { background: #d6d6d6; }
+.bonni-redesign .design-form { background: #d0d0d0; }
+.bonni-redesign .design-form input,
+.bonni-redesign .design-form textarea,
+.bonni-redesign .design-form select {
+  background: #c2c2c2;
+  border-color: #aaa;
+}
+.bonni-redesign .design-service-grid,
+.bonni-redesign .design-service-card { border-color: #aaa; }
+.bonni-redesign .design-section-head > p,
+.bonni-redesign .design-service-card p { color: #555; }
+.bonni-redesign .design-form-heading { border-color: #aaa; }
