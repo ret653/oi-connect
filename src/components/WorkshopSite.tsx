@@ -57,7 +57,7 @@ export default function WorkshopSite() {
         <div className="design-container design-hero-content">
           <div className="design-kicker"><span /> ENGENHARIA · PERFORMANCE · CUIDADO</div>
           <p className="design-index">01 <small>— 04</small></p>
-          <h1>Seu carro.<br /><span>Nosso compromisso.</span></h1>
+          <h1 className="design-hero-wordmark">BONN<span className="hero-red-i">I</span><small>CAR SERVICE</small></h1><p className="design-hero-tagline">MANUTENÇÃO, PERFORMANCE<br />E CONFIANÇA PARA O SEU CARRO.</p>
           <p className="design-hero-copy">Manutenção e reparos automotivos com atenção aos detalhes, do veículo do dia a dia aos modelos importados.</p>
           <div className="design-hero-actions"><a className="design-primary-button" href="#contato">FALE COM A BONNI <ArrowRight size={17} /></a><a className="design-secondary-button" href="#servicos">EXPLORAR SERVIÇOS <ArrowDownRight size={17} /></a></div>
           <div className="design-hero-foot"><span>01 / PRECISÃO</span><span>02 / CONFIANÇA</span><span>03 / MOVIMENTO</span></div>
