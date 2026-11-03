@@ -577,3 +577,44 @@ h1 em, h2 em { color: #ef233c; }
 .bonni-redesign .design-section-head > p,
 .bonni-redesign .design-service-card p { color: #555; }
 .bonni-redesign .design-form-heading { border-color: #aaa; }
+
+/* Wordmark BONNI em destaque na hero, com o I vermelho */
+.bonni-redesign .design-hero-wordmark {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  color: #f0efed;
+  font-size: clamp(76px, 11vw, 142px);
+  font-weight: 950;
+  line-height: .82;
+  letter-spacing: -.085em;
+  text-shadow: 0 8px 35px rgba(0,0,0,.35);
+}
+.bonni-redesign .design-hero-wordmark .hero-red-i {
+  display: inline;
+  color: #ed102d;
+  -webkit-text-stroke: 0;
+  text-shadow: 0 0 24px rgba(237,16,45,.35);
+}
+.bonni-redesign .design-hero-wordmark small {
+  display: block;
+  margin-left: 5px;
+  color: #d6d6d6;
+  font-size: clamp(18px, 2.8vw, 35px);
+  font-weight: 350;
+  letter-spacing: .32em;
+  line-height: 1.4;
+}
+.bonni-redesign .design-hero-tagline {
+  margin: 24px 0 0;
+  color: #c4c4c4;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.9;
+  letter-spacing: .2em;
+}
+@media(max-width:680px) {
+  .bonni-redesign .design-hero-wordmark { font-size: clamp(70px, 18vw, 104px); }
+  .bonni-redesign .design-hero-wordmark small { font-size: 17px; letter-spacing: .24em; }
+  .bonni-redesign .design-hero-tagline { font-size: 9px; letter-spacing: .14em; }
+}
